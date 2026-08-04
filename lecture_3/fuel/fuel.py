@@ -16,9 +16,7 @@ def main():
 
 
 def percentage(x, y):
-
     result = x / y
-
     percent = round(result * 100)
     if percent <= 1:
         return "E"
